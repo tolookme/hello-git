@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	fmt.Println("hello git!")
@@ -20,4 +23,7 @@ func main() {
 
 	fmt.Println("git commit -m \"modify main.go\"")
 	fmt.Println("git push")
+
+	fmt.Printf("time = %v.\n", time.Now())
+
 }
